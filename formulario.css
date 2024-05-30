@@ -29,7 +29,7 @@ input, select, textarea, button{
     border-radius: 3px;
 }
 
-#grupo #tipodesenvolvimento #senioridade #escolhagenero{
+#grupo, #tipodesenvolvimento, #senioridade, #escolhagenero, #campoinformacao{
     text-align: center;
 }
 .campo{
@@ -64,7 +64,7 @@ fieldset.grupo .campo{
 
 .botao{
     font-size: 1.2em;
-    background-color: #59429d;
+    background-color: green;
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;
@@ -79,7 +79,7 @@ fieldset.grupo .campo{
 }
 
 .botao:hover{
-    background: bisque;
+    background: greenyellow;
     box-shadow: inset 2px 2px 2px;
     text-shadow: none;
 }
