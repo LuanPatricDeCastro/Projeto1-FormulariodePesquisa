@@ -7,27 +7,27 @@
 </head>
 <body>
     <div>
-        <h1> Formulário de pesquisa para desenvolvedores </h1>
-        <P> Informe seus dados: </P>
+        <h1 id = "titulo" > Formulário de pesquisa para desenvolvedores </h1>
+        <P id = "subtitulo" > Informe seus dados: </P>
 
     </div>
     <form>
-        <fieldset>
+        <fieldset id = "grupo">
             <div>
-                <label> Nome: </label>
-                <input type = "text" name = "nome" id = "nome">
+                <label for = "nome" > <strong>  Nome: </strong></label>
+                <input type = "text" name = "nome" id = "nome" required>
             </div>
             <div>
-                <label> Sobrenome: </label>
-                <input type = "text" name = "sobrenome" id = "sobrenome">
+                <label for = "sobrenome"> <strong>  Sobrenome:  </strong></label>
+                <input type = "text" name = "sobrenome" id = "sobrenome" required>
             </div>
             <div> 
-                <label> E-mail: </label>
-                <input type = "email" name = "email" id = "email">
+                <label for = "email"> <strong> E-mail: </strong></label>
+                <input type = "email" name = "email" id = "email" required>
             </div>
         </fieldset>
         <div>
-            <label> Informe seu gênero: </label>
+            <label> <strong> Informe seu gênero: </strong></label>
             <label> 
                 <input type ="radio" name = "mulhercisgenero" id = "mulhercisgenero"> Mulher Cisgênero
             </label>
@@ -63,7 +63,7 @@
         </div>
 
         <div>
-            <label> Qual lado da aplicação você desenvolve? </label>
+            <label> <strong> Qual lado da aplicação você desenvolve? </strong></label>
             <label>
                 <input type = "radio" name = "devweb" value = "front-end"> Front-end 
             </label>
@@ -85,7 +85,7 @@
             </select>
         </div>
 
-        <fieldset>
+        <fieldset id = "grupo">
             <div>
                 <label> Selecione as tecnologias que você utiliza: </label> <br> <br>
                 <input type = "checkbox" id = "tecnologia1" name = "tecnologia1" value = "HTML">
