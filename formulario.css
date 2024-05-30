@@ -29,7 +29,9 @@ input, select, textarea, button{
     border-radius: 3px;
 }
 
-
+#grupo #tipodesenvolvimento #senioridade #escolhagenero{
+    text-align: center;
+}
 .campo{
     margin-bottom: 1em
 }

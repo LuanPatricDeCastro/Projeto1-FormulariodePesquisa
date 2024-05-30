@@ -9,7 +9,8 @@
 <body>
     <div>
         <h1 id = "titulo" > Formulário de pesquisa para desenvolvedores </h1>
-        <P id = "subtitulo" > Informe seus dados: </P>
+        <br>
+        <P id = "subtitulo" > Complete seus dados: </P>
         <br>
         <br>
     </div>
@@ -31,7 +32,7 @@
                 <br>
             </div>
         </fieldset>
-        <div>
+        <div id = "escolhagenero">
             <label> <strong> Informe seu gênero: </strong></label>
             <label> 
                 <input type ="radio" name = "mulhercisgenero" id = "mulhercisgenero"> Mulher Cisgênero
@@ -67,7 +68,7 @@
             </label>
         </div>
 
-        <div>
+        <div id = "tipodesenvolvimento">
             <label> <strong> Qual lado da aplicação você desenvolve? </strong></label>
             <label>
                 <input type = "radio" name = "devweb" value = "front-end"> Front-end 
@@ -80,7 +81,7 @@
             </label>
         </div>
 
-        <div>
+        <div id = "senioridades">
             <label for = "senioridade"> <strong> Senioridade: </strong></label>
             <select id = "senioridade">
                 <option selected disable value = ""> Informe seu nível de experiência </option>
@@ -113,7 +114,7 @@
         <div>
             <br>
             <label> </strong> Conte um pouco da sua experiência: </strong> </label>
-            <textarea row = "10" style = "width: 26em" id = "experiencia" name = "experiencia"> </textarea>
+            <textarea row = "10" style = "width: 50em" id = "experiencia" name = "experiencia"> </textarea>
             <br>
         </div>
 
